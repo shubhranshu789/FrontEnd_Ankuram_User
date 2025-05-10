@@ -302,7 +302,7 @@ export default function Home1() {
               </div>
 
               <div className="md:w-2/3">
-                <p className="text-gray-700 leading-relaxed">
+                <p className="text-gray-700 leading-relaxed text-justify">
                   Dear Parents and Little Learners,
 
                   Welcome to Ankuram, a place where curiosity blooms, laughter echoes, and learning begins with joy!
@@ -318,13 +318,13 @@ export default function Home1() {
                   Together, let’s make these early years a beautiful journey of growth and happiness. We look forward to welcoming your little one into our family!
 
                 </p>
-                <p className="text-gray-700 leading-relaxed" style={{marginTop : "10px"}}>Warm regards,</p>
-                <p className="text-gray-700 leading-relaxed" >Pooja Rani, M.Tech ( Power electronics and drives)</p>
-                <p className="text-gray-700 leading-relaxed" >Principal, Ankuram</p>
+                <p className="text-gray-700 leading-relaxed mt-2 text-justify" style={{marginTop : "10px"}}>Warm regards,</p>
+                <p className="text-gray-700 leading-relaxed text-justify" >Pooja Rani, M.Tech ( Power electronics and drives)</p>
+                <p className="text-gray-700 leading-relaxed text-justify" >Principal, Ankuram</p>
 
                 
-                <p className="text-gray-700 leading-relaxed" >Academic Experience More than 20 years </p>
-                <p className="text-gray-700 leading-relaxed" >Reaserch papers : 15</p>
+                <p className="text-gray-700 leading-relaxed text-justify" >Academic Experience More than 20 years </p>
+                <p className="text-gray-700 leading-relaxed text-justify" >Reaserch papers : 15</p>
               </div>
             </div>
           </section>
@@ -344,7 +344,7 @@ export default function Home1() {
                   <path fill="currentColor" d="M50 0 L60 40 L100 50 L60 60 L50 100 L40 60 L0 50 L40 40 Z" />
                 </svg>
               </h2>
-              <p className="mt-4 text-lg text-gray-600 lg:w-[600]">
+              <p className="mt-4 text-lg text-gray-600 lg:w-[600] text-justify">
                 At Ankuram, we nurture young minds in a joyful, safe, and stimulating environment where learning feels like play. Our engaging curriculum fosters curiosity, creativity, and confidence, helping children develop essential skills for life. With experienced educators, hands-on activities, and a focus on holistic growth, we create a strong foundation for a lifelong love of learning.
               </p>
             </div>
@@ -424,7 +424,7 @@ export default function Home1() {
                   />
                   <div>
                     <h4 className="font-semibold text-gray-900">{testimonial.name}</h4>
-                    <p className="text-sm text-gray-600">{testimonial.role}</p>
+                    <p className="text-sm text-gray-600 text-justify">{testimonial.role}</p>
                   </div>
                 </div>
                 <div className="flex mb-4">
