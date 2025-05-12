@@ -288,23 +288,21 @@ export default function Home1() {
             </div>
 
             <div className="flex flex-col md:flex-row gap-6 md:gap-10 mt-8">
-              <div className="md:w-1/3">
-                <div className="rounded-lg overflow-hidden shadow-md">
+              <div className="md:w-1/3 flex justify-center items-center">
+                <div className="rounded-lg overflow-hidden shadow-md w-full h-[500px] md:h-[80vh]">
                   <Image
                     src="/Capture.JPG"
                     alt="DPS Indirapuram students"
                     width={400}
                     height={350}
-                    className="w-full h-auto"
-                    style={{height : "74vh"}}
+                    className="w-full h-full "
                   />
                 </div>
               </div>
 
-              <div className="md:w-2/3">
+              <div className="md:w-2/3 font-['Patrick_Hand',cursive] text-lg md:text-xl" >
                 <p className="text-gray-700 leading-relaxed text-justify">
                   Dear Parents and Little Learners,
-
                   Welcome to Ankuram, a place where curiosity blooms, laughter echoes, and learning begins with joy!
 
                   At Ankuram, we believe that every child is a unique spark of wonder, ready to explore the world with open hearts and eager minds. Our nurturing environment, dedicated teachers, and play-based learning approach ensure that your child’s first steps in education are filled with excitement, creativity, and confidence.
@@ -316,17 +314,19 @@ export default function Home1() {
                   We are committed to building a strong foundation, not just in academics but in essential life skills—kindness, teamwork, and independence. Every classroom is a world of discovery, where storytelling, hands-on activities, and interactive play make learning magical.
 
                   Together, let’s make these early years a beautiful journey of growth and happiness. We look forward to welcoming your little one into our family!
-
                 </p>
-                <p className="text-gray-700 leading-relaxed mt-2 text-justify" style={{marginTop : "10px"}}>Warm regards,</p>
-                <p className="text-gray-700 leading-relaxed text-justify" >Pooja Rani, M.Tech ( Power electronics and drives)</p>
-                <p className="text-gray-700 leading-relaxed text-justify" >Principal, Ankuram</p>
-
-                
-                <p className="text-gray-700 leading-relaxed text-justify" >Academic Experience More than 20 years </p>
-                <p className="text-gray-700 leading-relaxed text-justify" >Reaserch papers : 15</p>
+                <p className="text-gray-700 leading-relaxed mt-2 text-justify">Warm regards,</p>
+                <p className="text-gray-700 leading-relaxed text-justify">Pooja Rani, M.Tech (Power Electronics and Drives)</p>
+                <p className="text-gray-700 leading-relaxed text-justify">Principal, Ankuram</p>
+                <p className="text-gray-700 leading-relaxed text-justify">Academic Experience: more than 20 years</p>
+                <p className="text-gray-700 leading-relaxed text-justify">Research Papers: 15</p>
               </div>
+
             </div>
+
+
+
+
           </section>
 
 
