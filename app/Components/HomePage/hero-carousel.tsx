@@ -13,8 +13,16 @@ export default function HeroCarousel() {
   const images = [
 
 
+   {
+      src: "/NewPics/1.jpg?height=400&width=500",
+      alt: "Students collaborating",
+    },
     {
-      src: "/HeroImages/1.png?height=400&width=500",
+      src: "/NewPics/3.jpg?height=400&width=500",
+      alt: "Students collaborating",
+    },
+    {
+      src: "/NewPics/4.jpg?height=400&width=500",
       alt: "Students collaborating",
     },
     {
@@ -22,21 +30,19 @@ export default function HeroCarousel() {
       alt: "Students collaborating",
     },
     {
-      src: "/HeroImages/3.png?height=400&width=500",
-      alt: "Students collaborating",
-    },
-    {
       src: "/HeroImages/4.png?height=400&width=500",
       alt: "Students collaborating",
     },
     {
-      src: "/HeroImages/5.png?height=400&width=500",
+      src: "/NewPics/2.jpg?height=400&width=500",
       alt: "Students collaborating",
     },
+
     {
       src: "/HeroImages/6.png?height=400&width=500",
       alt: "Students collaborating",
     },
+
 
     // {
     //   src: "/HeroImages/11111.png?height=400&width=500",
