@@ -345,7 +345,7 @@ export default function Home1() {
                   <path fill="currentColor" d="M50 0 L60 40 L100 50 L60 60 L50 100 L40 60 L0 50 L40 40 Z" />
                 </svg>
               </h2>
-              <p className="mt-4 text-lg text-gray-600 lg:w-[600] text-justify">
+               <p className="md:w-2/3 mt-4 text-lg text-gray-600 lg:w-[600px] font-['Patrick_Hand',cursive] text-justify text-lg md:text-xl">
                 At Ankuram, we nurture young minds in a joyful, safe, and stimulating environment where learning feels like play. Our engaging curriculum fosters curiosity, creativity, and confidence, helping children develop essential skills for life. With experienced educators, hands-on activities, and a focus on holistic growth, we create a strong foundation for a lifelong love of learning.
               </p>
             </div>
