@@ -23,7 +23,7 @@ export default function KindergartenMarquee() {
     },
     {
       icon: "🌱",
-      title: "Growing Together",
+      title: "Olympiad Examinations",
       message: "Watch your skills bloom like flowers!",
       character: "/images/plant-character.png",
       color: "#7FB800", // Green
@@ -35,30 +35,39 @@ export default function KindergartenMarquee() {
       character: "/images/music-character.png",
       color: "#FF5376", // Pink
     },
+
+    
     {
-      icon: "🧸",
-      title: "Playtime Fun",
+      icon: "👩‍🏫",
+      title: "Well trained teachers",
       message: "Play is how we learn and grow!",
       character: "/images/toy-character.png",
       color: "#FFB400", // Yellow
     },
     {
       icon: "👫",
-      title: "Friendship",
+      title: "Safe and child-friendly",
       message: "Making friends and sharing smiles!",
       character: "/images/friends-character.png",
       color: "#9A48D0", // Purple
     },
     {
-      icon: "🔍",
-      title: "Discovery",
+      icon: "🏊‍♂️",
+      title: "Swimming Pool",
       message: "Explore the world around you!",
       character: "/images/explorer-character.png",
       color: "#4ECDC4", // Turquoise
     },
     {
+      icon: "🎐",
+      title: "Fully AC rooms",
+      message: "Magical adventures await in books!",
+      character: "/images/book-character.png",
+      color: "#FF9F1C", // Orange-yellow
+    },
+    {
       icon: "📚",
-      title: "Storytime",
+      title: "Smart classes",
       message: "Magical adventures await in books!",
       character: "/images/book-character.png",
       color: "#FF9F1C", // Orange-yellow
