@@ -302,16 +302,17 @@ export default function Home1() {
 
               <div className="md:w-2/3 font-['Patrick_Hand',cursive] text-lg md:text-xl" >
                 <p className="text-gray-700 leading-relaxed text-justify">
-                  Dear Parents and Little Learners,
-                  Welcome to Ankuram, a place where curiosity blooms, laughter echoes, and learning begins with joy!
+                 Dear Parents and Little Learners,
 
-                  At Ankuram, we believe that every child is a unique spark of wonder, ready to explore the world with open hearts and eager minds. Our nurturing environment, dedicated teachers, and play-based learning approach ensure that your child’s first steps in education are filled with excitement, creativity, and confidence.
+                  Welcome to Ankuram, where curiosity blooms, laughter echoes, and learning begins with joy!
+
+                  At Ankuram, we believe every child is a unique spark of wonder, ready to explore the world with open hearts and eager minds. Our nurturing environment, dedicated teachers, and play-based learning approach ensure that your child’s first steps in education are filled with excitement, creativity, and confidence.
 
                   We focus on the holistic development of our young learners by nurturing their gross motor, fine motor, and cognitive skills through engaging activities. From fun-filled outdoor play that strengthens coordination and balance to hands-on crafts that refine little fingers, every experience is designed to enhance their abilities. Our interactive storytelling, puzzles, and problem-solving tasks stimulate cognitive growth, encouraging children to think, imagine, and explore with curiosity.
 
-                  To boost communication skills and build confidence, we provide ample opportunities for stage exposure through rhymes, storytelling, role-plays, and show-and-tell activities. These experiences help children express themselves clearly, overcome stage fear, and develop a love for public speaking. By encouraging participation in school events, we ensure that every child finds their voice and gains the confidence to shine in every aspect of life.
+                  To boost communication skills and build confidence, we provide ample opportunities for stage exposure through rhymes, storytelling, role plays, and show-and-tell activities. These experiences help children express themselves clearly, overcome stage fear, and develop a love for public speaking. By encouraging participation in school events, we ensure that every child finds their voice and gains the confidence to shine in every aspect of life.
 
-                  We are committed to building a strong foundation, not just in academics but in essential life skills—kindness, teamwork, and independence. Every classroom is a world of discovery, where storytelling, hands-on activities, and interactive play make learning magical.
+                  We are committed to building a strong foundation, not just in academics, but also in essential life skills—kindness, teamwork, and independence. Every classroom is a world of discovery, where storytelling, hands-on activities, and interactive play make learning magical.
 
                   Together, let’s make these early years a beautiful journey of growth and happiness. We look forward to welcoming your little one into our family!
                 </p>
