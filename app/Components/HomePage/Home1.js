@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { Star, ArrowUpRight, Globe, Target, NetworkIcon as Connection, ChevronRight, ChevronLeft } from "lucide-react"
-
+import TestimonialsCarousel from "../Gallery/testCompo/testimonials-carousel.tsx";
 
 import React, { useState, useEffect } from "react";
 import axios from "axios";
@@ -384,61 +384,63 @@ export default function Home1() {
       </section>
 
       {/* Testimonials */}
-      <section className="py-12 md:py-20 bg-white">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12">
-            What Our Lovely <br />
-            Clients Say
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
-              {
-                name: "Mansi Sharma Mini",
-                // role: "Sub Teacher in Texas",
-                image: "/Avatars/img1.png?height=80&width=80",
-                quote:
-                  "Impressed by this play school, it is one of a kind in Muradnagar. They use fun activities and unique teaching methods to make children mentally and physically active.",
-              },
-              {
-                name: "Vivek Sagar",
-                // role: "Principal",
-                image: "/Avatars/img2.png?height=80&width=80",
-                quote:
-                  "Ankuram Pre-School is one of the best preschool with good infrastructure and overall development of students. Teachers are doing excellent work in academics as well as extra curricular activities.",
-              },
-              {
-                name: "Ankit Tyagi",
-                // role: "Sub Teacher in Illinois",
-                image: "/Avatars/img3.png?height=80&width=80",
-                quote:
-                  "One of the best preschool in the locality. Staff is well qualified and professional.My kid learned a lot here. I will surely recommend this school.",
-              },
-            ].map((testimonial, index) => (
-              <div key={index} className="bg-gray-50 p-6 rounded-lg">
-                <div className="flex items-center mb-4">
-                  <Image
-                    src={testimonial.image || "/placeholder.svg"}
-                    alt={testimonial.name}
-                    width={50}
-                    height={50}
-                    className="rounded-full mr-4"
-                  />
-                  <div>
-                    <h4 className="font-semibold text-gray-900">{testimonial.name}</h4>
-                    <p className="text-sm text-gray-600 text-justify">{testimonial.role}</p>
-                  </div>
-                </div>
-                <div className="flex mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="h-4 w-4 text-orange-600 fill-current" />
-                  ))}
-                </div>
-                <p className="text-gray-600 text-sm">{testimonial.quote}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      // <section className="py-12 md:py-20 bg-white">
+      //   <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      //     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12">
+      //       What Our Lovely <br />
+      //       Clients Say
+      //     </h2>
+      //     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      //       {[
+      //         {
+      //           name: "Mansi Sharma Mini",
+      //           // role: "Sub Teacher in Texas",
+      //           image: "/Avatars/img1.png?height=80&width=80",
+      //           quote:
+      //             "Impressed by this play school, it is one of a kind in Muradnagar. They use fun activities and unique teaching methods to make children mentally and physically active.",
+      //         },
+      //         {
+      //           name: "Vivek Sagar",
+      //           // role: "Principal",
+      //           image: "/Avatars/img2.png?height=80&width=80",
+      //           quote:
+      //             "Ankuram Pre-School is one of the best preschool with good infrastructure and overall development of students. Teachers are doing excellent work in academics as well as extra curricular activities.",
+      //         },
+      //         {
+      //           name: "Ankit Tyagi",
+      //           // role: "Sub Teacher in Illinois",
+      //           image: "/Avatars/img3.png?height=80&width=80",
+      //           quote:
+      //             "One of the best preschool in the locality. Staff is well qualified and professional.My kid learned a lot here. I will surely recommend this school.",
+      //         },
+      //       ].map((testimonial, index) => (
+      //         <div key={index} className="bg-gray-50 p-6 rounded-lg">
+      //           <div className="flex items-center mb-4">
+      //             <Image
+      //               src={testimonial.image || "/placeholder.svg"}
+      //               alt={testimonial.name}
+      //               width={50}
+      //               height={50}
+      //               className="rounded-full mr-4"
+      //             />
+      //             <div>
+      //               <h4 className="font-semibold text-gray-900">{testimonial.name}</h4>
+      //               <p className="text-sm text-gray-600 text-justify">{testimonial.role}</p>
+      //             </div>
+      //           </div>
+      //           <div className="flex mb-4">
+      //             {[...Array(5)].map((_, i) => (
+      //               <Star key={i} className="h-4 w-4 text-orange-600 fill-current" />
+      //             ))}
+      //           </div>
+      //           <p className="text-gray-600 text-sm">{testimonial.quote}</p>
+      //         </div>
+      //       ))}
+      //     </div>
+      //   </div>
+      // </section>
+
+      <TestimonialsCarousel/>
 
       {/* Blog Section */}
       <section className="py-12 md:py-20 bg-gray-50">
@@ -460,7 +462,7 @@ export default function Home1() {
             </div>
           </div>
 
-
+         
 
           <div className="relative">
             <div className="overflow-hidden" ref={emblaRef}>
