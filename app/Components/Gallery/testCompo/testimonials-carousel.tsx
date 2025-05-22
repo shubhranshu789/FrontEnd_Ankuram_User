@@ -138,9 +138,58 @@ export default function TestimonialsCarousel() {
       onMouseLeave={() => setIsPaused(false)}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12 ">
-           Reviews from  Parents<br className="md:hidden" />
-        </h2>
+        <div className="w-full py-12 px-4 md:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6 md:gap-10 max-w-8xl ">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center md:text-left">Reviews from Parents</h2>
+
+            <div className="flex items-center gap-6 md:gap-10">
+              <motion.div whileHover={{ rotate: 360 }} transition={{ duration: 0.6, ease: "easeInOut" }}>
+                <Link
+                  to="https://www.facebook.com/ankurammuradnagar"
+                  className="block"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Visit our Facebook page"
+                >
+                  <svg
+                    className="h-10 w-10 md:h-12 md:w-12 text-blue-600 hover:text-blue-800 transition-colors duration-200"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z" />
+                  </svg>
+                </Link>
+              </motion.div>
+
+              <motion.div whileHover={{ scale: 1.15 }} transition={{ type: "spring", stiffness: 300, damping: 10 }}>
+                <Link
+                  to="https://www.instagram.com/ankuram__/"
+                  className="block"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Visit our Instagram page"
+                >
+                  <svg className="h-10 w-10 md:h-12 md:w-12" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                      <linearGradient id="instaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stopColor="#feda75" />
+                        <stop offset="25%" stopColor="#fa7e1e" />
+                        <stop offset="50%" stopColor="#d62976" />
+                        <stop offset="75%" stopColor="#962fbf" />
+                        <stop offset="100%" stopColor="#4f5bd5" />
+                      </linearGradient>
+                    </defs>
+                    <path
+                      fill="url(#instaGradient)"
+                      d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.344 3.608 1.32.975.976 1.257 2.243 1.32 3.608.058 1.266.07 1.646.07 4.84s-.012 3.575-.07 4.84c-.063 1.366-.345 2.633-1.32 3.608-.975.975-2.242 1.257-3.608 1.32-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.063-2.633-.345-3.608-1.32-.975-.975-1.257-2.242-1.32-3.608C2.175 15.58 2.163 15.2 2.163 12s.012-3.575.07-4.84c.063-1.366.345-2.633 1.32-3.608.975-.975 2.242-1.257 3.608-1.32C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.014 7.052.072 5.775.129 4.63.396 3.635 1.39 2.64 2.385 2.373 3.529 2.316 4.806.014 8.332 0 8.741 0 12s.014 3.668.072 4.948c.057 1.277.324 2.421 1.318 3.416.996.994 2.14 1.261 3.417 1.318C8.332 23.986 8.741 24 12 24s3.668-.014 4.948-.072c1.277-.057 2.421-.324 3.416-1.318.994-.996 1.261-2.14 1.318-3.417C23.986 15.668 24 15.259 24 12s-.014-3.668-.072-4.948c-.057-1.277-.324-2.421-1.318-3.416C21.615.396 20.471.129 19.194.072 17.914.014 17.505 0 14.246 0H12zM12 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z"
+                    />
+                  </svg>
+                </Link>
+              </motion.div>
+            </div>
+          </div>
+        </div>
 
         <div className="relative">
           {/* Carousel navigation - Previous button */}
