@@ -246,7 +246,7 @@ export default function Home1() {
         </div>
       </section>
 
-      // <TestimonialsCarousel/>
+      <TestimonialsCarousel/>
       {/* Blog Section */}
       <section className="py-12 md:py-20 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
