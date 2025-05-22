@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from "react"
 import Image from "next/image"
 import { Star, ChevronLeft, ChevronRight } from "lucide-react"
+import { motion } from "framer-motion"
 
 // Testimonial data type
 type Testimonial = {
